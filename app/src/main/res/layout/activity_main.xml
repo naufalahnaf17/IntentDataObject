@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnMove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pindah Activity" />
+
+        <Button
+            android:id="@+id/btnMoveData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnMove"
+            android:text="Pindah Activity Dengan Data" />
+
+        <Button
+            android:id="@+id/btnMoveObject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnMoveData"
+            android:text="Pindah Activity Data Dengan Object" />
+
+        <Button
+            android:id="@+id/btnDialPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnMoveObject"
+            android:text="Pindah Ke Dial Phone" />
+
+        <Button
+            android:id="@+id/btnMoveResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDialPhone"
+            android:text="Mengenal Activity Result" />
+
+        <TextView
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnMoveResult"
+            android:gravity="center"
+            android:text="Hasil "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtJudul"
+            android:gravity="center"
+            android:text="Bagai Adam "
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
